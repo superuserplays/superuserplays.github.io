@@ -1,0 +1,32 @@
+baseURL = "https://superuserplays.github.io/"
+languageCode = "en-us"
+title = "superuserplays"
+theme = "terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "pink"
+  showMenuItems = 3
+  fullWidthTheme = false
+  centerTheme = false
+
+[params.twitter]
+  creator = "@superuserplays"
+
+[menu]
+  [[menu.main]]
+    identifier = "reviews"
+    name = "reviews"
+    url = "/reviews"
+    weight = 10
+  [[menu.main]]
+    identifier = "playthroughs"
+    name = "playthroughs"
+    url = "/playthroughs"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about"
+    weight = 30
