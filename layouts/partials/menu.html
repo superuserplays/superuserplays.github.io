@@ -3,7 +3,7 @@
     {{ range .Site.Menus.main }}
       <li style="list-style:none; display:inline-block; margin-right:20px;">
         <a href="{{ .URL }}"
-           class="nav-link {{ if or (eq $.RelPermalink .URL) (hasPrefix $.RelPermalink .URL) }}nav-active{{ end }}"
+           class="nav-link {{ if eq $.RelPermalink .URL }}nav-active{{ end }}"
            style="text-decoration:none;">
           {{ .Name }}
         </a>
