@@ -2,7 +2,7 @@
 title: "superuserplays"
 ---
 
-<div style="margin-bottom:2rem;">
+<div style="margin-bottom:2rem;margin-top:-2rem;">
   <div style="display:flex;gap:6px;margin-bottom:1rem;">
     <div style="width:10px;height:10px;border-radius:50%;background:#ff5555;"></div>
     <div style="width:10px;height:10px;border-radius:50%;background:#ffb86c;"></div>
