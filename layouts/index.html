@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ partial "hero.html" . }}
+  <div class="index-content">
+    {{ range .Paginator.Pages }}
+      {{ partial "post.html" . }}
+    {{ end }}
+    {{ partial "pagination.html" . }}
+  </div>
+{{ end }}
