@@ -1,6 +1,7 @@
 ---
 title: "about"
 date: 2026-05-03
+hideMeta: true
 ---
 
 # $ whoami
