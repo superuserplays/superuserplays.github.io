@@ -1,5 +1,19 @@
-:root {
-  --background: #282a36;
-  --foreground: #f8f8f2;
-  --accent: #bd93f9;
+html, body, * {
+  --accent: #bd93f9 !important;
+}
+
+a { color: #bd93f9 !important; }
+a:hover { color: #ff79c6 !important; }
+
+.logo a { 
+  color: #bd93f9 !important; 
+  border-color: #bd93f9 !important;
+  background: #282a36 !important;
+}
+
+hr { background: #bd93f9 !important; }
+::selection { background: #bd93f9 !important; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f8f8f2 !important;
 }
