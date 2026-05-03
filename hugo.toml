@@ -1,5 +1,5 @@
 baseURL = "https://superuserplays.github.io/"
-languageCode = "en-us"
+locale = "en-us"
 title = "superuserplays"
 theme = "terminal"
 paginate = 5
