@@ -1,3 +1,7 @@
+---
+title: "about"
+date: 2026-05-03
+---
 
 <div style="margin-bottom:2rem;">
   <div style="display:flex;gap:6px;margin-bottom:1rem;">
@@ -13,10 +17,7 @@
     <span class="blink"></span>
   </div>
   <div style="font-size:11px;letter-spacing:0.16em;text-transform:uppercase;margin-top:0.5rem;font-family:monospace;color:#6272a4;">game reviews &amp; playthroughs</div>
-</div>---
-title: "about"
-date: 2026-05-03
----
+</div>
 
 # $ whoami
 
