@@ -2,7 +2,9 @@
   <div class="menu__inner menu__inner--desktop">
     {{ range .Site.Menus.main }}
       <li style="list-style:none; display:inline-block; margin-right:20px;">
-        <a href="{{ .URL }}" style="{{ if $.IsMenuCurrent `main` . }}color:#ff79c6 !important;{{ else }}color:#bd93f9;{{ end }} text-decoration:none;">
+        <a href="{{ .URL }}" 
+           class="nav-link {{ if $.IsMenuCurrent `main` . }}nav-active{{ end }}"
+           style="text-decoration:none;">
           {{ .Name }}
         </a>
       </li>
