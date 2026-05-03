@@ -24,6 +24,11 @@ paginate = 5
 
 [menu]
   [[menu.main]]
+    identifier = "home"
+    name = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
     identifier = "reviews"
     name = "reviews"
     url = "/reviews"
