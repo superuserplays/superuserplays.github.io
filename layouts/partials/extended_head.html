@@ -30,11 +30,20 @@
   code, kbd { color: #bd93f9 !important; background: rgba(189,147,249,0.2) !important; }
   blockquote { border-color: #bd93f9 !important; }
   a { color: #bd93f9 !important; }
+  
+  .nav-active::before {
+  content: "[" !important;
+  color: #ff79c6 !important;
+  }
+
+  .nav-active::after {
+  content: "]" !important;
+  color: #ff79c6 !important;
+  }
 
   .nav-active {
   color: #f8f8f2 !important;
-  font-weight: 600 !important;
-  }  
+  }
 
   .nav-link:hover {
   color: #ff79c6 !important;
