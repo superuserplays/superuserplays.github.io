@@ -10,11 +10,10 @@ paginate = 5
 
 [params]
   contentTypeName = "posts"
-  themeColor = "green"
+  themeColor = "dracula"
   showMenuItems = 3
   fullWidthTheme = false
   centerTheme = false
-  customCSS = ["custom.css"]
   subtitle = "// game reviews & playthroughs"
   favicon = "favicon.png"
 
