@@ -1,19 +1,17 @@
-html, body, * {
-  --accent: #bd93f9 !important;
+:root {
+    --accent: #bd93f9 !important;
+    --background: #282a36 !important;
+    --color: #f8f8f2 !important;
 }
 
-a { color: #bd93f9 !important; }
-a:hover { color: #ff79c6 !important; }
-
-.logo a { 
-  color: #bd93f9 !important; 
-  border-color: #bd93f9 !important;
-  background: #282a36 !important;
+.logo {
+    background: #bd93f9 !important;
 }
 
-hr { background: #bd93f9 !important; }
-::selection { background: #bd93f9 !important; }
+.post-meta {
+    color: rgba(189, 147, 249, 0.7) !important;
+}
 
-h1, h2, h3, h4, h5, h6 {
-  color: #f8f8f2 !important;
+.hanchor {
+    color: rgba(189, 147, 249, 0.9) !important;
 }
