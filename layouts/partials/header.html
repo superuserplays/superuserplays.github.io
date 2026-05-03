@@ -1,5 +1,8 @@
 <header class="header">
   <div class="header__inner">
+    {{ if not .IsHome }}
+      {{ partial "logo.html" . }}
+    {{ end }}
     {{ partial "menu.html" . }}
   </div>
 </header>
