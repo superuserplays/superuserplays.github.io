@@ -2,7 +2,7 @@
   {{ partial "hero.html" . }}
   <div class="index-content">
     {{ range .Paginator.Pages }}
-      {{ partial "post.html" . }}
+      {{ partial "post-list.html" . }}
     {{ end }}
     {{ partial "pagination.html" . }}
   </div>
