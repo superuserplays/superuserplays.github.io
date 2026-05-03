@@ -12,11 +12,10 @@ paginate = 5
   contentTypeName = "posts"
   themeColor = "blue"
   showMenuItems = 3
-  fullWidthTheme = false
+  fullWidthTheme = true
   centerTheme = false
   subtitle = "// game reviews & playthroughs"
   favicon = "favicon.png"
-  fullWidthTheme = true
 
 [menu]
   [[menu.main]]
