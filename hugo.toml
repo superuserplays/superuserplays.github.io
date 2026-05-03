@@ -1,6 +1,6 @@
 baseURL = "https://superuserplays.github.io/"
 locale = "en-us"
-title = "superuserplays"
+title = ">_ superuserplays"
 theme = "github.com/panr/hugo-theme-terminal"
 paginate = 5
 
@@ -15,6 +15,7 @@ paginate = 5
   fullWidthTheme = false
   centerTheme = false
   customCSS = ["custom.css"]
+  subtitle = "// game reviews & playthroughs"
 
 [menu]
   [[menu.main]]
