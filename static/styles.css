@@ -1,7 +1,7 @@
-:root {
-    --accent: #bd93f9 !important;
-    --background: #282a36 !important;
-    --color: #f8f8f2 !important;
+html {
+    --accent: #bd93f9;
+    --background: #282a36;
+    --color: #f8f8f2;
 }
 
 .logo {
@@ -12,6 +12,11 @@
     color: rgba(189, 147, 249, 0.7) !important;
 }
 
-.hanchor {
-    color: rgba(189, 147, 249, 0.9) !important;
+.header__logo:after {
+    background: repeating-linear-gradient(90deg, #bd93f9, #bd93f9 2px, transparent 0, transparent 10px) !important;
+}
+
+.header .menu-trigger,
+.header .menu__sub-inner-more-trigger {
+    color: #bd93f9 !important;
 }
