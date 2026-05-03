@@ -1,6 +1,6 @@
 baseURL = "https://superuserplays.github.io/"
 locale = "en-us"
-title = ">_ superuserplays"
+title = "superuserplays"
 theme = "github.com/panr/hugo-theme-terminal"
 paginate = 5
 
