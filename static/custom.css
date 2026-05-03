@@ -1,0 +1,59 @@
+:root {
+  --background: #282a36;
+  --foreground: #f8f8f2;
+  --accent: #bd93f9;
+  --secondary: #6272a4;
+  --pink: #ff79c6;
+  --green: #50fa7b;
+}
+
+/* Override theme pink with our purple */
+.tag {
+  background: var(--accent) !important;
+  color: var(--background) !important;
+}
+
+/* Nav links */
+.menu a {
+  color: var(--foreground);
+}
+
+.menu a:hover {
+  color: var(--accent);
+}
+
+/* Rounded edges everywhere */
+* {
+  border-radius: 6px;
+}
+
+button, .button {
+  border-radius: 6px !important;
+}
+
+/* Post titles */
+h1, h2, h3 {
+  color: var(--foreground);
+}
+
+h1 a, h2 a {
+  color: var(--accent) !important;
+}
+
+h1 a:hover, h2 a:hover {
+  color: var(--pink) !important;
+}
+
+/* Footer */
+.footer {
+  color: var(--secondary);
+}
+
+/* Accent color on links */
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--pink);
+}
