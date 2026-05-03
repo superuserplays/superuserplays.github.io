@@ -16,6 +16,7 @@ paginate = 5
   centerTheme = false
   subtitle = "// game reviews & playthroughs"
   favicon = "favicon.png"
+  customCSS = "terminal.css"
 
 [menu]
   [[menu.main]]
